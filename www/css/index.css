@@ -1,0 +1,72 @@
+
+.the-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #222; /* Dark background color */
+  color: #fff; /* Light text color */
+  font-family: 'Arial', sans-serif;
+}
+
+.Header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: min-content;
+  background-color: #222;
+  padding: 20px;
+}
+
+.Header p {
+  margin: 10px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  color: #fff;
+}
+
+.login-container {
+  width: 70%;
+}
+
+
+input[type="text"],
+input[type="password"],
+select {
+  width: 100%;
+  padding: 12px; /* Slightly larger padding */
+  margin-bottom: 20px; /* Slightly more spacing between form elements */
+  border: 2px solid #007acc; /* Thicker border */
+  border-radius: 6px; /* Rounded corners */
+  font-size: 18px; /* Slightly larger font size */
+}
+
+
+.login-button {
+  padding: 12px 24px; /* Padding for the button */
+  background-color: #f7f3e9; /* Creamish background color */
+  color: #333;
+  border: 2px solid #f7f3e9; /* Use the same creamish color for the border */
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #e4d9c2; /* Darker creamish background color on hover */
+}
+
+
+.center-button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+
